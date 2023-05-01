@@ -19,5 +19,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('test', views.first_view, name='first_test')
     path('xss/', views.xss, name='xss_test'),
 ]
