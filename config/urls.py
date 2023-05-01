@@ -18,5 +18,5 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path('html/index.html', views.home, name='home'),
+    path('html/index.html', include('index.html')),
 ]
