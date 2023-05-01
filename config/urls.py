@@ -18,5 +18,6 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path('html/index.html', include('index.html')),
+    path('admin/', admin.site.urls),
+    path('xss/', views.xss, name='xss_test'),
 ]
