@@ -1,19 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Welcome to Project!</title>
-  </head>
-  <body>
-    <img src="images/name.jpeg" style="width: 300px; height: auto;" alt="My test image">
-    <p> Hello World! Here's Johncreepto's Page! </p>
-    <p style="color:white;"> If you watch this, you can hack this homepage! </p>
-    <p style="color:white;"> Input https://hanja1500.github.io/Mid-Term-Project/images/Flags.png </p>
-    <img src="images/up.png" style="width: 300px; height: auto;" alt="My test image 2">
-    <p> And are you interest in V-tuber? then, Watch This! </p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/DpnrMEynbX8"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-  </body>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/files/style.css">
+  <style>
+    section {
+      background: url("index.png") center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 90vh;
+      display: table;
+    }
+
+    .contents {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    #intro {
+      padding: 20px;
+      text-align: center;
+      margin: auto;
+      color: white;
+      text-shadow: 1px 1px 10px black;
+    }
+  </style>
+  <title>Welcome To Secure Section!</title>
+</head>
+
+<body>
+<header>
+  <div id="logo">
+    <h2><a href="index.html">Welcome To Secure Section!</a></h2>
+    <ul>
+      <li><a href="intro.html">소개</a></li>
+      <li><a href="Vtuber.html">V-tuber</a></li>
+      <li><a href="xss.html">XSS</a></li>
+    </ul>
+  </div>
+</header>
+
+<section>
+  <div class="contents">
+    <div id="intro">
+      <h1>안녕하세요 산업보안학과 이요한입니다</h1>
+      <p>
+        <br>제가 좋아하는 건 무엇인지 보시고
+        <br>취약점 해킹도 한번 진행해보세요!</p>
+      <p><strong>상단 메뉴를 클릭</strong>하여 진행해보새요!</p>
+      <p style="color:white;"> If you watch this, you can hack this homepage! </p>
+      <p style="color:white;"> Input https://hanja1500.github.io/Mid-Term-Project/images/Flags.png </p>
+    </div>
+  </div>
+
+
+</section>
+
+<footer> OpenSource SW Pratical
+  <br>Copyright (c) 2023 Yohan Lee, a.k.a. JohnCreepto</footer>
+</body>
+
 </html>

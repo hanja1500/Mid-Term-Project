@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 30px;
+  padding: 5px;
+}
+
+header h2 {
+  display: inline;
+  text-align: left;
+}
+
+header ul {
+  position: absolute;
+  right: 0px;
+  display: inline;
+  padding: 0px;
+  margin: 5px;
+}
+
+header ul li {
+  display: inline;
+  margin: 0px 10px 0px 10px;
+}
+
+header ul li a:link, header ul li a:visited, header h2 a:link, header h2 a:visited, header h2 a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+header ul li a:hover {
+  text-decoration: none;
+  color: bisque;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 80%;
+  margin: 10px 0px 10px 0px;
+}
+
+#refer {
+  clear: both;
+  color: gray;
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
+
+#viewtop {
+  height: 200px;
+  margin: 0px;
+  color: white;
+  text-align: center;
+  line-height: 200px;
+  text-shadow: 1px 1px 10px black;
+}
