@@ -15,13 +15,22 @@
             padding: 20px 30px 10px 30px;
         }
 
-        #paragraph_1 {
+        .paragraph .selfpr {
             float: left;
             width: 49%;
+            height : 1500px;
             padding-right: 10px;
         }
 
-        #paragraph_2 {
+        .paragraph .selfpr .pr {
+            height : 1000px;
+        }
+
+        .paragraph .selfpr .f12 {
+            height : 500px;
+        }
+
+        .paragraph .face{
             float: right;
             width: 49%;
             padding-left: 10px;
@@ -46,9 +55,10 @@
 
     <h1 id="viewtop">자기소개</h1>
     <div class="paragraph">
-        <div id="paragraph_1">
-            <p>
-                안녕하세요 단국대학교 산업보안학과 재학생 이요한입니다!<br>
+        <div class="selfpr">
+            <div class="pr">
+                <p>
+                    안녕하세요 단국대학교 산업보안학과 재학생 이요한입니다!<br>
                 <table border="0" width="600" height="350">
                     <th>   약</th>
                     <th>력   </th>
@@ -69,9 +79,13 @@
                         <td>단국대학교 산업보안학과 입학</td>
                     </tr>
                 </table>
-            </p>
+                </p>
+            </div>
+            <div>
+                <img src="/Mid-Term-Project/images/f12.png" alt="face">
+            </div>
         </div>
-        <div id="paragraph_2">
+        <div class="face">
             <img src="/Mid-Term-Project/images/name.png" alt="face">
         </div>
     </div>
