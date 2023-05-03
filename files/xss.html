@@ -1,14 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Challenge!</title>
-  </head>
-  <body>
-    <p>Can you Take the <strong>SECRET</strong> code?</p>
-    <form action="/html/xss.html">
-      <input type="text" id="in" name="in_text" required width="200" height="200"><br><br>
-      <input type="submit" value="submit">
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/Mid-Term-Project/files/style.css">
+  <style>
+    section {
+      background: url("/Mid-Term-Project/images/hacker.png") center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 90vh;
+      display: table;
+    }
+
+    .contents {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    #intro {
+      padding: 20px;
+      text-align: center;
+      margin: auto;
+      color: white;
+      text-shadow: 1px 1px 10px black;
+    }
+  </style>
+  <title>Challenge!</title>
+</head>
+
+<body>
+<header>
+  <div id="logo">
+    <h2><a href="/Mid-Term-Project/index.html">Welcome To Secure Section!</a></h2>
+    <ul>
+      <li><a href="/Mid-Term-Project/files/intro.html">소개</a></li>
+      <li><a href="/Mid-Term-Project/files/Vtuber.html">V-tuber</a></li>
+      <li><a href="/Mid-Term-Project/files/xss.html">XSS</a></li>
+    </ul>
+  </div>
+</header>
+
+<section>
+  <div class="top">
+    <h1>문의하기</h1>
+    <p>문의하실 내용이 있으신가요? 아래의 폼을 작성한 후 '제출' 버튼을 눌러주세요. </p>
+  </div>
+
+  <div id="askform">
+    <form action="/Mid-Term-Project/files/xss_flag.html" method="post">
+      <h2>Can You Take <strong>SECRET</strong> code?</h2>
+      <textarea name="comment" rows="5" cols="50"></textarea><br>
+      <input type="submit" value="제출"/>
     </form>
-  </body>
+  </div>
+
+
+
+</section>
+<footer> OpenSource SW Pratical
+  <br>Copyright (c) 2023 Yohan Lee, a.k.a. JohnCreepto</footer>
+</body>
+
 </html>
